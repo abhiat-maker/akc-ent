@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="brand-block">
+          <div class="brand-logo">AK</div>
+          <div>
+            <div class="brand">AKC Enterprises</div>
+            <span class="brand-tag">Property • Construction • Interiors</span>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="#details" class="nav-link">Services</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+      <div class="hero-content">
+        <div>
+          <p class="eyebrow">Trusted Business Partner</p>
+          <h1>Land sale & purchase, construction, and interior solutions</h1>
+          <p class="hero-text">
+            AKC Enterprises brings professionalism, quality, and reliability to
+            every project across property and construction services.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="cta">Book a consultation</a>
+            <a href="#details" class="cta secondary">View services</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="details" class="details-section">
+        <div class="section-card work-card">
+          <p class="eyebrow">Work Description</p>
+          <h2>Our Services</h2>
+          <p>
+            AKC Enterprises offers end-to-end support in land buying and selling,
+            construction planning, and premium interior solutions. We focus on
+            quality, timely execution, and client satisfaction in every project.
+          </p>
+          <ul>
+            <li>Land sale & purchase</li>
+            <li>Construction services</li>
+            <li>Interior work and finishing</li>
+          </ul>
+        </div>
+
+        <div class="section-card address-card">
+          <p class="eyebrow">Office Address</p>
+          <h2>Visit our office</h2>
+          <p class="address-line">Kharauna Dih</p>
+          <p class="address-line">Muzaffarpur</p>
+          <p class="address-line">Bihar</p>
+          <div class="proprietor-block">
+            <p class="address-line"><strong>Proprietor:</strong> Abhishek Chaudhary</p>
+            <p class="address-line"><strong>Contact:</strong> 9631910654</p>
+            <p class="address-line"><strong>Email:</strong> abhiatwork79@gmail.com</p>
+          </div>
+          <a href="https://maps.google.com" target="_blank" class="map-link">Open in maps</a>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section">
+        <div class="section-heading">
+          <p class="eyebrow">Project visuals</p>
+          <h2>Our work in focus</h2>
+        </div>
+        <div class="gallery-grid">
+          <article class="visual-card">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80" alt="Land and property area" />
+            <div>
+              <h3>Land opportunities</h3>
+              <p>Carefully selected locations for investment and development.</p>
+            </div>
+          </article>
+          <article class="visual-card">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80" alt="Construction site" />
+            <div>
+              <h3>Construction excellence</h3>
+              <p>Reliable building services tailored to your project goals.</p>
+            </div>
+          </article>
+          <article class="visual-card">
+            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80" alt="Interior design" />
+            <div>
+              <h3>Interior finishing</h3>
+              <p>Design-focused interiors that combine comfort and style.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Reach us directly</h3>
+            <a href="tel:+919631910654" class="contact-link">📞 9631910654</a>
+            <a href="mailto:abhiatwork79@gmail.com" class="contact-link">✉️ abhiatwork79@gmail.com</a>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="tel" name="phone" placeholder="Your Phone" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="enterprise-section">
+        <div class="section-heading">
+          <p class="eyebrow">Enterprise</p>
+          <h2>AKC Enterprises</h2>
+        </div>
+        <div class="enterprise-grid">
+          <div class="enterprise-pill">Land Sale & Purchase</div>
+          <div class="enterprise-pill">Construction</div>
+          <div class="enterprise-pill">Interior Work</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> AKC Enterprises. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
